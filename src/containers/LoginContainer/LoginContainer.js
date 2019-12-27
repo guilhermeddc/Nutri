@@ -2,6 +2,7 @@ import React from 'react';
 import { useDispatch } from 'react-redux'
 import { Creators as AuthActions } from '../../store/ducks/auth'
 import Button from '../../components/Button'
+import Navbar from '../../components/NavBar'
 
 const LoginContainer = () => {
   const dispatch = useDispatch()
@@ -12,7 +13,7 @@ const LoginContainer = () => {
 
   return (
     <div>
-      login container
+      <Navbar></Navbar>
 
       <Button onClick={login} color="secondary" >acessar</Button>
     </div>
