@@ -20,6 +20,11 @@ const useStyles = makeStyles(() => ({
     justifyContent: 'space-between',
     alignItems: 'center',
   },
+  navbarDown: {
+    display: 'flex',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+  },
   logo: {
     width: '100px',
     margin: '5px 20px',
