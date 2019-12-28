@@ -26,7 +26,13 @@ const useStyles = makeStyles(() => ({
     padding: '0 0 50px 0',
     '& div img': {
       width: '350px',
-      boxShadow: '0 0 5px 1px rgba(0,0,0,0.2)',
+      borderRadius: '5px',
+      boxShadow: '0 0 5px 1px rgba(46,46,46,0.2)',
+      '&:hover': {
+        boxShadow: '0 0 10px 1px rgba(46,46,46,0.3)',
+        borderRadius: '10px',
+        transition: 'all .3s',
+      },
     },
     '& div h3': {
       padding: '0 40px 10px',

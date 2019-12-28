@@ -10,7 +10,7 @@ const useStyles = makeStyles(() => ({
     width: '100%',
     backgroundColor: 'transparent',
     color: '#fff',
-    boxShadow: '0 0 5px 1px rgba(0,0,0,0.5)',
+    boxShadow: '0 0 5px 1px rgba(46,46,46,0.5)',
     position: 'fixed',
     top: 0,
     right: 0,
@@ -40,7 +40,7 @@ const useStyles = makeStyles(() => ({
       fontSize: '18px',
       color: '#fff',
       transition: 'all 0.3s',
-      textShadow: '0px 0px 3px rgba(0,0,0,0.5)',
+      textShadow: '0px 0px 3px rgba(46,46,46,0.5)',
       '&:hover': {
         opacity: 0.7,
       }

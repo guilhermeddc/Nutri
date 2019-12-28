@@ -24,7 +24,7 @@ const useStyles = makeStyles(() => ({
       color: '#fff',
       display: 'flex',
       alignItems: 'center',
-      textShadow: '0px 0px 3px rgba(0,0,0,0.5)',
+      textShadow: '0px 0px 3px rgba(46,46,46,0.5)',
     },
     '& h2 span img': {
       width: '32px',
@@ -35,7 +35,7 @@ const useStyles = makeStyles(() => ({
       fontWeight: 300,
       fontStyle: 'italic',
       marginTop: '20px',
-      textShadow: '0px 0px 3px rgba(0,0,0,0.5)',
+      textShadow: '0px 0px 3px rgba(46,46,46,0.5)',
     }
   }
 }))

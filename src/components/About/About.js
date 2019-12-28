@@ -2,7 +2,7 @@ import React from 'react';
 import useStyles from './styles';
 import photoAbout from '../../assets/about.jpg';
 
-const About = props => {
+const About = () => {
   const classes = useStyles()
 
   return (

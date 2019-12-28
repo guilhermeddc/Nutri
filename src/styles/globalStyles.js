@@ -15,6 +15,7 @@ export default () => ({
     },
     body: {
       fontFamily: 'Roboto, sans-serif',
+      color: '#2E2E2E'
     }
   }
 })

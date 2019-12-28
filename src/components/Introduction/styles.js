@@ -31,13 +31,13 @@ const useStyles = makeStyles(() => ({
       fontSize: '72px',
       margin: '0 0 8px 0',
       color: '#fff',
-      textShadow: '0px 0px 3px rgba(0,0,0,0.5)',
+      textShadow: '0px 0px 3px rgba(46,46,46,0.5)',
     },
     '& p': {
       fontSize: '28px',
       margin: '0 0 24px 0',
       color: '#fff',
-      textShadow: '0px 0px 3px rgba(0,0,0,0.5)',
+      textShadow: '0px 0px 3px rgba(46,46,46,0.5)',
     },
     '& button': {
       fontSize: '14px',
@@ -48,10 +48,10 @@ const useStyles = makeStyles(() => ({
       background: 'transparent',
       border: '2px solid #fff',
       textTransform: 'uppercase',
-      textShadow: '0px 0px 3px rgba(0,0,0,0.5)',
-      boxShadow: '0 0 5px 1px rgba(0,0,0,0.5)',
+      textShadow: '0px 0px 3px rgba(46,46,46,0.5)',
+      boxShadow: '0 0 5px 1px rgba(46,46,46,0.5)',
       '&:hover': {
-        boxShadow: '0 0 10px 1px rgba(0,0,0,0.5)',
+        boxShadow: '0 0 10px 1px rgba(46,46,46,0.5)',
       },
     },
   }
