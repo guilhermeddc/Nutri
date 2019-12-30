@@ -5,17 +5,19 @@ import About from '../../components/About';
 import Streak from '../../components/Streak';
 import Programs from '../../components/Programs';
 import Recipes from '../../components/Recipes';
+import Contact from '../../components/Contact';
 
 
 const HomeContainer = () => {
   return (
     <div>
-      <Navbar/>
-      <Introduction/>
-      <About/>
-      <Streak/>
-      <Programs/>
-      <Recipes/>
+      <Navbar />
+      <Introduction />
+      <About />
+      <Streak />
+      <Programs />
+      <Recipes />
+      <Contact />
     </div>
   );
 };
