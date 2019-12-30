@@ -14,8 +14,8 @@ export default () => ({
       listStyle: 'none',
     },
     body: {
-      fontFamily: 'Roboto, sans-serif',
-      color: '#2E2E2E'
+      fontFamily: '"Montserrat", "Roboto",  sans-serif',
+      color: '#2E2E2E',
     }
   }
 })

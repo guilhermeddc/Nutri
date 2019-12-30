@@ -1,4 +1,5 @@
-import { makeStyles } from '@material-ui/core/styles'
+import { makeStyles } from '@material-ui/core/styles';
+import bg from '../../assets/bg-contact.jpg';
 
 const useStyles = makeStyles(() => ({
   container: {
@@ -8,6 +9,11 @@ const useStyles = makeStyles(() => ({
   },
   Contact: {
     padding: '50px 0 30px',
+    backgroundImage: `url(${bg})`,
+    backgroundPosition: 'center',
+    backgroundAttachment: 'no-repeat',
+    color: '#fff',
+    textShadow: '0px 0px 3px rgba(46,46,46,0.5)',
   },
   headerContact: {
     display: 'flex',
@@ -15,6 +21,7 @@ const useStyles = makeStyles(() => ({
     padding: '50px 0 30px',
     fontSize: '32px',
     textTransform: 'uppercase',
+    textShadow: '0px 0px 3px rgba(46,46,46,0.5)',
   },
   ContactBody: {
     display: 'flex',
@@ -23,23 +30,27 @@ const useStyles = makeStyles(() => ({
   cardContact: {
     display: 'flex',
     flexDirection: 'column',
-    padding: '20px',
+    padding: '30px 20px',
     maxWidth: '550px',
-    width: '500px',
+    width: '450px',
     margin: '50px',
     borderRadius: '4px',
     border: '1px solid #728DA3',
+    backgroundColor: '#fff',
     '& input': {
       padding: '10px',
       borderRadius: '4px',
       border: '1px solid #728DA3',
-      margin: '20px 20px 10px',
+      margin: '10px 20px 10px',
+      fontWeight: 600,
     },
     '& textarea': {
       padding: '10px',
       borderRadius: '4px',
       border: '1px solid #728DA3',
-      margin: '20px',
+      margin: '10px 20px',
+      height: '100px',
+      fontWeight: 600,
     },
     '& a': {
       padding: '15px 40px',

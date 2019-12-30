@@ -6,6 +6,7 @@ import Streak from '../../components/Streak';
 import Programs from '../../components/Programs';
 import Recipes from '../../components/Recipes';
 import Contact from '../../components/Contact';
+import Footer from '../../components/Footer';
 
 
 const HomeContainer = () => {
@@ -18,6 +19,7 @@ const HomeContainer = () => {
       <Programs />
       <Recipes />
       <Contact />
+      <Footer />
     </div>
   );
 };
