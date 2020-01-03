@@ -5,7 +5,7 @@
 }
 .navbar {
   width: 100%;
-  background-color: transparent;
+  background-color: rgba(222,239,247,0.5);
   color: #fff;
   box-shadow: 0 0 5px 1px rgba(46,46,46,0.5);
   position: fixed;
@@ -15,8 +15,8 @@
 }
 .navbarDown {
   width: 100%;
-  background-color: #728DA3;
-  color: #fff;
+  background-color: #DEEFF7;
+  color: #2E2E2E;
   box-shadow: 0 0 5px 1px rgba(46,46,46,0.5);
   position: fixed;
   top: 0;
@@ -29,7 +29,7 @@
   align-items: center;
 }
 .logo {
-  width: 100px;
+  width: 200px;
   margin: 5px 20px;
 }
 .menu {
@@ -41,15 +41,15 @@
     font-weight: 400;
     font-display: optional;
     font-size: 18px;
-    color: #fff;
+    color: #006835;
     transition: all 0.3s;
-    text-shadow: 0px 0px 3px rgba(46,46,46,0.5);
+    text-shadow: 0px 0px 3px rgba(222,239,247,0.5);
     &:hover {
       opacity: 0.7;
     }
   }
   & li a img {
-    width: 20px;
+    width: 24px;
   }
 }
 .navbarLinks {

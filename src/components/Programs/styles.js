@@ -14,7 +14,7 @@ const useStyles = makeStyles(() => ({
     '& h2': {
       fontSize: '32px',
       textTransform: 'uppercase',
-      marginBottom: '50px'
+      marginBottom: '50px',
     },
     '& p': {
       lineHeight: 1.5,

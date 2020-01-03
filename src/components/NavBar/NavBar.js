@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
-import logo from '../../assets/logos/logo-teste.png'
-import Facebook from '../../assets/icons/Facebook.png'
-import Instagram from '../../assets/icons/Instagram.png'
-import WhatsApp from '../../assets/icons/WhatsApp.png'
-import YouTube from '../../assets/icons/YouTube.png'
+import logo from '../../assets/logos/logo-teste-cm.png'
+import Facebook from '../../assets/icons/Facebook-g.png'
+import Instagram from '../../assets/icons/Instagram-g.png'
+import WhatsApp from '../../assets/icons/WhatsApp-g.png'
+import YouTube from '../../assets/icons/YouTube-g.png'
 import './style.scss';
 
 class NavBar extends Component {

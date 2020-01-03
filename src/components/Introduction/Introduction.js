@@ -9,8 +9,9 @@ const Introduction = props => {
       <div className={classes.container}>
         <div className={classes.introHeader}>
           <div className={classes.introContent}>
-            <h1>Cassiana Pace</h1>
-            <p>Nutricionista, Coach, Youtuber e Blogueira</p>
+            <p>Nutricionista</p>
+            <h1>Cassiana Della Pace</h1>
+            <p>CRN-2 14472</p>
             <button>Saiba Mais</button>
           </div>
         </div>
