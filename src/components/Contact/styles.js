@@ -16,8 +16,7 @@ const useStyles = makeStyles(() => ({
     textShadow: '0px 0px 3px rgba(46,46,46,0.5)',
   },
   headerContact: {
-    display: 'flex',
-    justifyContent: 'center',
+    textAlign: 'center',
     padding: '50px 0 30px',
     fontSize: '32px',
     textTransform: 'uppercase',
@@ -25,6 +24,7 @@ const useStyles = makeStyles(() => ({
   },
   ContactBody: {
     display: 'flex',
+    flexWrap: 'wrap',
     justifyContent: 'center',
   },
   cardContact: {

@@ -31,6 +31,11 @@ const useStyles = makeStyles(() => ({
     display: 'flex',
     justifyContent: 'center',
     padding: '10px'
+  },
+  '@media screen and (max-width: 768px)': {
+    socialLinks: {
+      padding: '20px 30px',
+    }
   }
 }))
 

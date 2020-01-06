@@ -24,12 +24,13 @@ const useStyles = makeStyles(() => ({
       lineHeight: 1.5,
       fontSize: '16px',
       fontWeight: 300,
-      padding: '0 150px',
+      padding: '0 15px',
       textAlign: 'center',
     },
   },
   recipesContent: {
     display: 'flex',
+    flexWrap: 'wrap',
     justifyContent: 'center',
   },
   card: {

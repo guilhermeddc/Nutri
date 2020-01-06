@@ -16,6 +16,16 @@ export default () => ({
     body: {
       fontFamily: '"Roboto",  sans-serif',
       color: '#2E2E2E',
-    }
+    },
+    img: {
+      display: 'block',
+      maxWidth: '100%',
+    },
+    input: {
+      fontFamily: '"Roboto",  sans-serif',
+    },
+    textarea: {
+      fontFamily: '"Roboto",  sans-serif',
+    },
   }
 })

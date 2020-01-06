@@ -10,7 +10,7 @@
   box-shadow: 0 0 5px 1px rgba(46,46,46,0.5);
   position: fixed;
   top: 0;
-  right: 0;
+  left: 0;
   transition: all 0.5s;
 }
 .navbarDown {
@@ -20,7 +20,7 @@
   box-shadow: 0 0 5px 1px rgba(46,46,46,0.5);
   position: fixed;
   top: 0;
-  right: 0;
+  left: 0;
   transition: all 0.9s;
 }
 .navbarNav {
@@ -29,7 +29,7 @@
   align-items: center;
 }
 .logo {
-  width: 200px;
+  width: 215px;
   margin: 5px 20px;
 }
 .menu {
@@ -57,4 +57,48 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  transition: all 0.9s;
+}
+
+.menuDown {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .navbar {
+    background-color: #DEEFF7;
+  }
+
+  .menuDown {
+    display: flex;
+    width: 50px;
+    background-color: transparent;
+    border: none;
+  }
+
+  .navbarLinks {
+    display: none;
+    flex-direction: column;
+    background-color: #DEEFF7;
+    align-items: flex-end;
+    position: absolute;
+    right: 0;
+    width: 100%;
+    top: 87.72px;
+    padding: 20px;
+    transition: all 0.9s;
+    box-shadow: 0 5px 5px 0px rgba(46,46,46,0.5);
+    & li {
+      display: flex;
+      justify-content: flex-end;
+      margin: 10px;
+    }
+    & .down {
+      display: flex;
+    }
+  }
+  
+  .navbarLinks.active {
+    display: flex;
+  }
 }

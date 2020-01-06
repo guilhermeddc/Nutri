@@ -23,22 +23,32 @@ const useStyles = makeStyles(() => ({
   },
   aboutContent: {
     display: 'flex',
-    padding: '0 0 50px 0',
-    '& div img': {
-      width: '350px',
+    flexWrap: 'wrap',
+    padding: '0 0 50px 0',    
+  },
+  aboutImg: {
+    flex: 1,
+    display: 'flex',
+    justifyContent: 'center',
+    marginBottom: 20,
+    '& img': {
       borderRadius: '5px',
       boxShadow: '0 0 5px 1px rgba(46,46,46,0.2)',
+      minWidth: '260px',
       '&:hover': {
         boxShadow: '0 0 10px 1px rgba(46,46,46,0.3)',
         borderRadius: '10px',
         transition: 'all .3s',
       },
     },
-    '& div h3': {
+  },
+  aboutInfo: {
+    flex: 3,
+    '& h3': {
       padding: '0 40px 10px',
       fontSize: '24px'
     },
-    '& div p': {
+    '& p': {
       padding: '10px 40px',
       lineHeight: 1.5,
       fontSize: '16px',
@@ -47,6 +57,5 @@ const useStyles = makeStyles(() => ({
     }
   },
 }))
-
 
 export default useStyles
