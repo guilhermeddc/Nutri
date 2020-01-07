@@ -1,27 +1,26 @@
-import React from 'react';
+import React from 'react'
+import useStyles from './styles';
 import PropTypes from 'prop-types';
-import MuiButton from '@material-ui/core/Button'
-import useStyles from './styles'
 
 const Button = props => {
-  const classes = useStyles()
+  const classes = useStyles();
 
-  return (
-    <MuiButton
+  return(
+    <a
       {...props}
-      classes={{
-        label: classes.label
-      }}
-    />
-  );
-};
+      className={classes.Button}
+    >
+      {props.label}
+    </a>
+  )
+}
 
 Button.propTypes = {
-  variant: PropTypes.string
+  label: PropTypes.string
 };
 
 Button.defaultProps = {
-  variant: 'contained'
+  label: 'ok'
 }
 
 export default Button;

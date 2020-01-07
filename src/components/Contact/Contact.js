@@ -1,6 +1,7 @@
 import React from 'react';
 import useStyles from './styles';
 
+
 const Contact = () => {
   const classes = useStyles();
 
@@ -30,7 +31,6 @@ const Contact = () => {
               <h4>E-mail</h4>
               <p>contato@nutri.com.br</p>
             </div>
-
           </div>
         </div>
       </div>

@@ -1,5 +1,5 @@
 import { makeStyles } from '@material-ui/core/styles'
-import bg from '../../assets/bg.jpg'
+import bg from '../../assets/bg2.jpg'
 
 const useStyles = makeStyles(() => ({
   container: {
@@ -42,17 +42,13 @@ const useStyles = makeStyles(() => ({
       textShadow: '0px 0px 3px rgba(46,46,46,0.5)',
       textTransform: 'uppercase',
     },
-    '& button': {
-      fontSize: '14px',
-      fontWeight: 500,
+    '& a': {
       padding: '15px 40px',
-      margin: '6px 0',
-      color: '#006835',
-      background: 'transparent',
-      border: '2px solid #006835',
+      backgroundColor: '#2E2E2E',
+      color: '#fff',
+      borderRadius: '2px',
       textTransform: 'uppercase',
-      textShadow: '0px 0px 3px rgba(46,46,46,0.5)',
-      boxShadow: '0 0 5px 1px rgba(46,46,46,0.5)',
+      cursor: 'pointer',
       '&:hover': {
         boxShadow: '0 0 10px 1px rgba(46,46,46,0.5)',
       },

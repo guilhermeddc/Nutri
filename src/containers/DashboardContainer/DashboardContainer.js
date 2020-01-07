@@ -16,7 +16,7 @@ const DashboardContainer = () => {
     <div className={classes.container}>
       dashboard container
 
-      <Button onClick={logout}>sair</Button>
+      {/* <Button onClick={logout}>sair</Button> */}
     </div>
   );
 };

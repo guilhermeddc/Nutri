@@ -1,5 +1,5 @@
 import { makeStyles } from '@material-ui/core/styles';
-import bg from '../../assets/bg.jpg';
+import bg from '../../assets/bg2.jpg';
 
 const useStyles = makeStyles(() => ({
   container: {

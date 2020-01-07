@@ -12,6 +12,7 @@ const useStyles = makeStyles(() => ({
     backgroundImage: `url(${bg})`,
     backgroundPosition: 'center',
     backgroundAttachment: 'no-repeat',
+    backgroundSize: 'cover',
     color: '#fff',
     textShadow: '0px 0px 3px rgba(46,46,46,0.5)',
   },
@@ -20,6 +21,7 @@ const useStyles = makeStyles(() => ({
     padding: '50px 0 30px',
     fontSize: '32px',
     textTransform: 'uppercase',
+    color: '#2E2E2E',
     textShadow: '0px 0px 3px rgba(46,46,46,0.5)',
   },
   ContactBody: {
@@ -29,13 +31,13 @@ const useStyles = makeStyles(() => ({
   },
   cardContact: {
     display: 'flex',
+    flex: 1,
     flexDirection: 'column',
     padding: '30px 20px',
     maxWidth: '550px',
     width: '450px',
     margin: '50px',
     borderRadius: '4px',
-    border: '1px solid #728DA3',
     backgroundColor: '#fff',
     '& input': {
       padding: '10px',
@@ -43,6 +45,8 @@ const useStyles = makeStyles(() => ({
       border: '1px solid #728DA3',
       margin: '10px 20px 10px',
       fontWeight: 600,
+      color: '#2E2E2E',
+      fontSize: 16
     },
     '& textarea': {
       padding: '10px',
@@ -51,6 +55,8 @@ const useStyles = makeStyles(() => ({
       margin: '10px 20px',
       height: '100px',
       fontWeight: 600,
+      color: '#2E2E2E',
+      fontSize: 16
     },
     '& a': {
       padding: '15px 40px',
@@ -64,12 +70,22 @@ const useStyles = makeStyles(() => ({
   },
   info: {
     display: 'flex',
+    flex: 1,
     flexDirection: 'column',
     justifyContent: 'space-around',
     padding: '20px',
     maxWidth: '550px',
     width: '500px',
     margin: '50px',
+    color: '#2E2E2E',
+    borderRadius: '4px',
+    backgroundColor: '#fff',
+    '& div': {
+      border: '1px solid #728DA3',
+      borderRadius: '4px',
+      padding: 20,
+      margin: '10px 20px',
+    }
   },
 }))
 

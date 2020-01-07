@@ -1,13 +1,13 @@
 import React from 'react';
 import useStyles from './styles';
-import photoAbout from '../../assets/about.jpg';
+import photoAbout from '../../assets/about.jpeg';
 
 const About = () => {
   const classes = useStyles()
 
   return (
-    <div className={classes.about}>
-      <h2 id="about">Sobre Mim</h2>
+    <div id="about" className={classes.about}>
+      <h2>Sobre Mim</h2>
       <div className={classes.container}>
         <div className={classes.aboutContent}>
           <div className={classes.aboutImg}>
@@ -20,9 +20,6 @@ const About = () => {
             </p>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi sapiente, consequuntur dolore praesentium non suscipit minus repudiandae, nesciunt placeat, vel nostrum.
-            </p>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi sapiente, consequuntur dolore praesentium non suscipit minus repudiandae, nesciunt placeat, vel nostrum, nesciunt placeat, vel nostrum, nesciunt placeat, vel nostrum, nesciunt placeat, vel nostrum.
             </p>
           </div>
         </div>

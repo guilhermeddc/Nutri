@@ -35,6 +35,7 @@ const useStyles = makeStyles(() => ({
   },
   card: {
     display: 'flex',
+    flex: 1,
     flexDirection: 'column',
     alignItems: 'center',
     width: '350px',

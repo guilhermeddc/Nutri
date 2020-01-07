@@ -43,7 +43,7 @@ const useStyles = makeStyles(() => ({
     },
   },
   aboutInfo: {
-    flex: 3,
+    flex: 2,
     '& h3': {
       padding: '0 40px 10px',
       fontSize: '24px'

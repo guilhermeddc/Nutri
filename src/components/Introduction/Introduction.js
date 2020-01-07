@@ -12,7 +12,7 @@ const Introduction = props => {
             <p>Nutricionista</p>
             <h1>Cassiana Della Pace</h1>
             <p>CRN-2 14472</p>
-            <button>Saiba Mais</button>
+            <a href="#about">Saiba Mais</a>
           </div>
         </div>
       </div>
