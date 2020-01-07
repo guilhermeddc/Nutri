@@ -1,5 +1,5 @@
 import { makeStyles } from '@material-ui/core/styles'
-import bg from '../../assets/bg2.jpg'
+import bg from '../../assets/bg-contact.jpg'
 
 const useStyles = makeStyles(() => ({
   container: {
@@ -11,29 +11,31 @@ const useStyles = makeStyles(() => ({
     background: `url(${bg}) center center`,
     backgroundAttachment: 'fixed',
     backgroundSize: 'cover',
-    height: '100vh',
+    height: '70vh',
     width: '100%',
   },
   introHeader: {
     display: 'flex',
-    justifyContent: 'flex-end',
+    justifyContent: 'center',
     alignItems: 'center',
-    height: '100vh',
+    height: '70vh',
     marginRight: '20px',
   },
   introContent: {
     padding: '10px 30px 20px 30px',
     display: 'flex',
     flexDirection: 'column',
-    alignItems: 'flex-end',
-    borderRight: '4px solid #006835',
+    alignItems: 'center',
     '& h1': {
       fontSize: '72px',
-      margin: '-8px 0 8px 0',
+      margin: '-18px 0 8px 0',
       fontFamily: 'Brush Script MT',
       color: 'red',
       textShadow: '0px 0px 3px rgba(46,46,46,0.5)',
-      fontWeight: 500
+      fontWeight: 500,
+      borderBottom: '4px solid #006835',
+      paddingLeft: 50,
+      paddingRight: 50,
     },
     '& p': {
       fontSize: '42px',
@@ -41,6 +43,10 @@ const useStyles = makeStyles(() => ({
       color: '#006835',
       textShadow: '0px 0px 3px rgba(46,46,46,0.5)',
       textTransform: 'uppercase',
+    },
+    '& span': {
+      padding: 10,
+      color: 'red',
     },
     '& a': {
       padding: '15px 40px',
