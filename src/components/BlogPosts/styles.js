@@ -34,6 +34,7 @@ const useStyles = makeStyles(() => ({
         lineHeight: 1.5,
         fontSize: 16,
         fontWeight: 400,
+        color: 'red'
       },
       '& h2': {
         fontSize: 24,
@@ -72,6 +73,7 @@ const useStyles = makeStyles(() => ({
     '&:hover': {
       opacity: 0.9,
       boxShadow: '0 0 10px 1px rgba(46,46,46,0.5)',
+      zIndex: -1,
     }
   }
 }))

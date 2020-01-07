@@ -12,7 +12,7 @@ const BlogContainer = () => {
     <div>
       <Navbar />
       <BlogIntrodution />
-      <section className={classes.container}>
+      <section id="blog" className={classes.container}>
         <div className={classes.blogTitle}>
           <h1>Posts Recentes</h1>
           <p>
