@@ -27,5 +27,8 @@ export default () => ({
     textarea: {
       fontFamily: '"Roboto",  sans-serif',
     },
+    html: {
+      scrollBehavior: 'smooth',
+    }
   }
 })

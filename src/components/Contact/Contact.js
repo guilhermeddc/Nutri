@@ -6,7 +6,7 @@ const Contact = () => {
   const classes = useStyles();
 
   return (
-    <section className={classes.Contact}>
+    <section id="contact" className={classes.Contact}>
       <div className={classes.container}>
         <h2 className={classes.headerContact}>Entre em contato!</h2>
         <div className={classes.ContactBody}>
