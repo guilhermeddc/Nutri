@@ -80,6 +80,7 @@ const useStyles = makeStyles(() => ({
     color: '#2E2E2E',
     borderRadius: '4px',
     backgroundColor: '#fff',
+    textShadow: '0px 0px 0px rgba(46,46,46,0.5)',
     '& div': {
       border: '1px solid #728DA3',
       borderRadius: '4px',

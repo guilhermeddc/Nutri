@@ -53,8 +53,8 @@ class NavBar extends Component {
               <ul className="menu">
                 <li><a href="/">Início</a></li>
                 <li><a href="/blog">Blog</a></li>
-                <li><a href="#about" data-offset="100">Sobre</a></li>
-                <li><a href="#contact">Contato</a></li>
+                <li><a href="/#about" data-offset="100">Sobre</a></li>
+                <li><a href="/#contact">Contato</a></li>
               </ul>
               <ul className="menu down">
                 <li>
