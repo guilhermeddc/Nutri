@@ -1,25 +1,25 @@
-import { lazy } from 'react'
+import { lazy } from "react";
 
-const LoginPage = lazy(() => import('../pages/guest/Login'))
-const HomePage = lazy(() => import('../pages/guest/Home'))
-const BlogPage = lazy(() => import('../pages/guest/Blog'))
+const LoginPage = lazy(() => import("../pages/guest/Login"));
+const HomePage = lazy(() => import("../pages/guest/Home"));
+const BlogPage = lazy(() => import("../pages/guest/Blog"));
 
 const routes = {
   login: {
-    path: '/login',
+    path: "/login",
     exact: true,
-    Component: LoginPage
+    Component: LoginPage,
   },
   home: {
-    path: '/',
+    path: "/",
     exact: true,
-    Component: HomePage
+    Component: HomePage,
   },
   blog: {
-    path: '/blog',
+    path: "/blog",
     exact: true,
-    Component: BlogPage
-  }
-}
+    Component: BlogPage,
+  },
+};
 
-export default routes
+export default routes;

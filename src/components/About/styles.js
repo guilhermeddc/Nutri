@@ -1,61 +1,59 @@
-import { makeStyles } from '@material-ui/core/styles'
+import styled from "styled-components";
+import theme from "../../styles/theme";
 
-const useStyles = makeStyles(() => ({
-  '#about': {
-    transition: '0.35s',
-  },
-  container: {
-    maxWidth: '1140px',
-    margin: '0 auto',
-    padding: '0 15px',
-  },
-  about: {
-    width: '100%',
-    padding: '50px 0',
-    display: 'flex',
-    flexDirection: 'column',
-    alignItems: 'center',
-    '& h2': {
-      padding: '50px 0',
-      fontSize: '32px',
-      textTransform: 'uppercase',
-    },
-  },
-  aboutContent: {
-    display: 'flex',
-    flexWrap: 'wrap',
-    padding: '0 0 50px 0',    
-  },
-  aboutImg: {
-    flex: 1,
-    display: 'flex',
-    justifyContent: 'center',
-    marginBottom: 20,
-    '& img': {
-      borderRadius: '5px',
-      boxShadow: '0 0 5px 1px rgba(46,46,46,0.2)',
-      minWidth: '260px',
-      '&:hover': {
-        boxShadow: '0 0 10px 1px rgba(46,46,46,0.3)',
-        borderRadius: '10px',
-        transition: 'all .3s',
-      },
-    },
-  },
-  aboutInfo: {
-    flex: 2,
-    '& h3': {
-      padding: '0 40px 10px',
-      fontSize: '24px'
-    },
-    '& p': {
-      padding: '10px 40px',
-      lineHeight: 1.5,
-      fontSize: '16px',
-      fontWeight: 300,
-      textAlign: 'justify',
+export const Container = styled.div`
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 15px;
+`;
+
+export const AboutStyled = styled.div`
+  transition: all 0.35s;
+  width: 100%;
+  padding: 50px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  h2 {
+    padding: 50px 0;
+    font-size: 32px;
+    text-transform: uppercase;
+  }
+`;
+
+export const AboutContent = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 0 50px 0;
+`;
+
+export const AboutImg = styled.div`
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  img {
+    border-radius: 5px;
+    box-shadow: ${theme.boxShadow};
+    min-width: 260px;
+    transition: all 0.3s;
+    :hover {
+      opacity: 0.85;
     }
-  },
-}))
+  }
+`;
 
-export default useStyles
+export const AboutInfo = styled.div`
+  flex: 2;
+  h3 {
+    padding: 0 40px 10px;
+    font-size: 24px;
+  }
+  p {
+    padding: 10px 40px;
+    line-height: 1.5;
+    font-size: 16px;
+    font-weight: 300;
+    text-align: justify;
+  }
+`;

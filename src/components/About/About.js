@@ -1,30 +1,40 @@
-import React from 'react';
-import useStyles from './styles';
-import photoAbout from '../../assets/about.jpeg';
+import React from "react";
+import {
+  AboutStyled,
+  Container,
+  AboutContent,
+  AboutImg,
+  AboutInfo,
+} from "./styles";
+import photoAbout from "../../assets/about.jpeg";
 
 const About = () => {
-  const classes = useStyles()
-
   return (
-    <div id="about" className={classes.about}>
-      <h2>Sobre Mim</h2>
-      <div className={classes.container}>
-        <div className={classes.aboutContent}>
-          <div className={classes.aboutImg}>
-            <img src={photoAbout} alt="Cassiana Della Pace"/>
-          </div>
-          <div className={classes.aboutInfo}>
-            <h3>Ola, eu sou Cassiana Della Pace. Nutricionista</h3>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo animi soluta ratione quisquam, dicta ab cupiditate iure eaque? Repellendus voluptatum, magni impedit eaque delectus, beatae maxime temporibus maiores quibusdam quasi.Rem magnam ad perferendis iusto sint tempora ea voluptatibus iure, animi excepturi modi aut possimus in hic molestias repellendus illo ullam odit quia velit. Qui expedita sit quo, maxime molestiae.
-            </p>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi sapiente, consequuntur dolore praesentium non suscipit minus repudiandae, nesciunt placeat, vel nostrum.
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
+    <>
+      <AboutStyled id="about">
+        <h2>Sobre Mim</h2>
+        <Container>
+          <AboutContent>
+            <AboutImg>
+              <img src={photoAbout} alt="Cassiana Della Pace" />
+            </AboutImg>
+            <AboutInfo>
+              <h3>Ola, eu sou Cassiana Della Pace - Nutricionista</h3>
+              <p>
+                Olá sou Cassiana, nutricionista em São Pedro do Sul, RS, esposa,
+                evangélica e apaixonada por pessoas e cuidar de pessoas! Fico
+                muito feliz com a sua visita ao meu blog, como disse antes sou
+                apaixonada por pessoas e por cuidar de pessoas, então em tudo
+                que eu puder ajudar eu quero ajudar! Seja com uma palavra de
+                motivação, com uma receita diferente, com um novo jeito de ver a
+                vida ou com a descoberta de novas prazeres e alegrias
+                cotidianas! Será um prazer fazer parte da sua vida!
+              </p>
+            </AboutInfo>
+          </AboutContent>
+        </Container>
+      </AboutStyled>
+    </>
   );
 };
 

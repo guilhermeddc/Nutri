@@ -1,16 +1,14 @@
 import React from 'react'
-import useStyles from './styles'
+import {Container, PostImg} from './styles'
 import icon from '../../assets/icons/hearts.png'
 
 const BlogPosts = () => {
-  const classes = useStyles()
-
   return (
-    <article className={classes.Post}>
-      <div className={classes.postImg}></div>
+    <Container>
+      <PostImg />
       <div>
         <span>
-          <img src={icon} alt="icom" />
+          <img src={icon} alt="icon" />
           <p>Saude</p>
         </span>
         <h2>O que você precisa saber sobre a Tireoide</h2>
@@ -20,7 +18,7 @@ const BlogPosts = () => {
         <p><strong>Por</strong> Cassiana Della Pace, <strong>xx/xx/xxxx</strong></p>
         <a href="#top">Leia Mais</a>
       </div>
-    </article>
+    </Container>
   )
 }
 

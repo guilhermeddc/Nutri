@@ -1,19 +1,18 @@
-import { createMuiTheme } from '@material-ui/core/styles';
-import colors from '../styles/colors'
+import { createMuiTheme } from "@material-ui/core/styles";
+import theme from "../styles/theme";
 
 export default createMuiTheme({
   palette: {
     primary: {
-      main: colors.primary
+      main: theme.colors.primary,
     },
     secondary: {
-      main: colors.secondary,
-      contrastText: '#fff'
-    }
+      main: theme.colors.secondary,
+      contrastText: theme.colors.wuite,
+    },
   },
   typography: {
-    useNextVariants: true
+    useNextVariants: true,
   },
-  overrides: {
-  }
-})
+  overrides: {},
+});
