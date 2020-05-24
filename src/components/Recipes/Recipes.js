@@ -14,7 +14,7 @@ const Recipes = () => {
     <section className={classes.recipes}>
       <div className={classes.container}>
         <div className={classes.recipesHeader}>
-          <h2>Dicas de receitas</h2>
+          <h2>Orientação para receitas</h2>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia iste provident, voluptatum voluptatibus aut modi aspernatur autem impedit, eius, debitis earum voluptatem. Quaerat hic aspernatur laborum.
           </p>

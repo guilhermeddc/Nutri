@@ -15,8 +15,8 @@ class NavBar extends Component {
       active: false,
     }
   }
-  
-  handleScroll() {
+
+  handleScroll () {
     if (document.documentElement.scrollTop > 70) {
       this.setState({
         className: 'navbarDown'
@@ -34,11 +34,11 @@ class NavBar extends Component {
     })
   }
 
-  componentDidMount() {
+  componentDidMount () {
     window.onscroll = () => this.handleScroll()
   }
-  
-  render() {
+
+  render () {
     return (
       <div className={this.state.className}>
         <div className="container">
@@ -54,7 +54,7 @@ class NavBar extends Component {
                 <li><a href="/">Início</a></li>
                 <li><a href="/blog">Blog</a></li>
                 <li><a href="#about" data-offset="100">Sobre</a></li>
-                <li><a href="/contact">Contato</a></li>
+                <li><a href="#contact">Contato</a></li>
               </ul>
               <ul className="menu down">
                 <li>
@@ -76,7 +76,7 @@ class NavBar extends Component {
               data-menu="button"
               aria-expanded="false"
               aria-controls="menu"
-              className="menuDown" 
+              className="menuDown"
             >
               <img src={Menu} alt="Icon Menu" />
             </button>

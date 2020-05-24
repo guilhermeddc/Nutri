@@ -9,7 +9,7 @@ const BlogContainer = () => {
   const classes = useStyles()
 
   return (
-    <div>
+    <>
       <Navbar />
       <BlogIntrodution />
       <section id="blog" className={classes.container}>
@@ -26,7 +26,7 @@ const BlogContainer = () => {
         <BlogPosts />
       </section>
       <Footer />
-    </div>
+    </>
   );
 };
 
